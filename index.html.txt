@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section{
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+        img{
+            width: 150px;
+            border-radius: 50%;
+        }
+        footer{
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Profile Photo">
+    <h1>Ragavi S</h1>
+    <p>IT Student | UI/UX Learner | Web Developer</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am an Information Technology student interested in
+        UI/UX Design, Web Development, and creating user-friendly applications.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>UI/UX Design</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <ul>
+        <li>Student Management System</li>
+        <li>Portfolio Website</li>
+        <li>Login Page Design</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: ragavi@example.com</p>
+    <p>LinkedIn: linkedin.com/in/ragavi</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Ragavi S. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
