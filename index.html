@@ -1,101 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: liner-gradient(135deg,,#667eea,#764ba2);
-            color:white;
-        }
-        header{
-            
-            background-color: liner-gradient(135deg,1e3c72,#2a5298);
-            color: white;
-            text-align: center;
-            padding: 50px;
-        }
-        .profile{
-            width:150px:
-        height:20px;
-            border-radius:50px;
-            border:4px solid white;
-        }
-        section{
-            padding: 25px;
-            margin: 20px;
-            background: white;
-            border-radius: 15px;
-            box-shadow:0 0 10px blue;
-        }
-        .btn{
-            background:white;
-           padding:10px 20px;
-            color:#764ba2;
-            border-radius:20px;
-            text-decoration:none;
-        }
-            
-        img{
-            width: 150px;
-            border-radius: 50%;
-        }
-        footer{
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:#1e293b;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:4px solid white;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+header p{
+    margin-top:10px;
+    color:#cbd5e1;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#1e293b;
+}
+
+.about,
+.skills,
+.projects,
+.contact{
+    background:white;
+    margin-bottom:25px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.skills ul{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    list-style:none;
+}
+
+.skills li{
+    background:#2563eb;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+}
+
+.project-card{
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
+.contact a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1e293b;
+    color:white;
+}
+</style>
 </head>
+
 <body>
 
 <header>
-    <img src="profile.jpg" class="profile">
-            <h1>Ragavi S</h1>
-            <p>IT Student | UIUX Designer | Web Designer</p>
-            
-
+    <img src="https://via.placeholder.com/150" alt="Profile Photo">
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Freelancer</p>
 </header>
 
 <section>
-    <h2>About Me</h2>
-    <p>
-        I am an Information Technology student interested in
-        UI/UX Design, Web Development, and creating user-friendly applications.
-    </p>
-</section>
 
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>UI/UX Design</li>
-    </ul>
-</section>
+    <div class="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate developer who enjoys building modern,
+            responsive, and user-friendly websites.
+        </p>
+    </div>
 
-<section>
-    <h2>Projects</h2>
-    <ul>
-        <li>Student Management System</li>
-        <li>Portfolio Website</li>
-        <li>Login Page Design</li>
-    </ul>
-</section>
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Python</li>
+        </ul>
+    </div>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: ragavi@example.com</p>
-    <p>LinkedIn: linkedin.com/in/ragavi</p>
-    <p>GitHub:https://github.com/720724110082-Ragavi/S.Ragavi/edit/main/index.html</p>
+    <div class="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Project One</h3>
+            <p>Short description of your project.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Project Two</h3>
+            <p>Short description of your project.</p>
+        </div>
+
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+        <p>LinkedIn: <a href="#">Your Profile</a></p>
+        <p>GitHub: <a href="#">Your GitHub</a></p>
+    </div>
+
 </section>
 
 <footer>
-    <p>&copy; 2026 Ragavi S. All Rights Reserved.</p>
+    © 2026 Your Name. All Rights Reserved.
 </footer>
 
 </body>
